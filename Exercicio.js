@@ -1,10 +1,10 @@
-const user = {
-  name: 'Lucas',
-  lastName: 'Santos',
-  idade: 32,
-  address: {
-    'Rua Teste',
-    number: 176,
-    city: 'São Paulo',
-  },
-}
+document.write('<h1>Livro JavaScript</h1>');
+
+document.write("<h1>Exemplos</h1>")
+
+document.width("Caixa de Alerta")
+
+alert("Ola Mundo!");
+
+
+
