@@ -1,0 +1,5 @@
+let nome =window.prompt('Qual é o seu nome?')
+let idade =window.prompt('Qual é a sua idade?')
+let sexo =window.prompt('Qual é o seu sexo?')
+window.alert(`Olá ${nome}, você tem ${idade} anos de idade!`)
+window.alert(`E você é do sexo ${sexo}!`)
