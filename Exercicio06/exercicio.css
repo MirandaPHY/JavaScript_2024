@@ -1,0 +1,31 @@
+body{
+    background-color: #22176f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+
+}
+
+h1{
+    color: rgb(234, 1, 1);
+    text-align: center;
+    
+}
+
+#botoes{
+    text-align: center;
+    padding: 20px;
+}
+
+#eventos{
+  text-align: center;
+}
+
+#box{
+    width: 50%;
+    height: 50px;
+    background-color: #22176f;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}

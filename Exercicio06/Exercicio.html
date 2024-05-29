@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="exercicio.js"></script>
+  <link rel="stylesheet" href="exercicio.css">
+  
+  <title>Relógio Customizado</title>
+</head>
+
+<body>
+ 
+ <h1>Relógio Customizado</h1>
+ <div id="box">
+  
+  <div id="relogio">
+    <div id="horas"></div>
+    <div id="minutos"></div>
+    <div id="segundos"></div>
+  </div>
+</div>
+
+  <div id="botoes">
+    <button onclick="iniciar()">Iniciar</button>
+    <button onclick="parar()">Parar</button>
+    <button onclick="zerar()">Zerar</button>
+  </div>
+
+  <div id="eventos">
+    <h2>Eventos</h2>
+    <div id="eventos-lista"></div>
+    <button onclick="adicionarEvento()">Adicionar Evento</button>
+    <button onclick="removerEvento()">Remover Evento</button>
+    <button onclick="limparEventos()">Limpar Eventos</button>
+    </div>
+  </div>
+
+
+  <div id="intervalo">
+    <h2>Intervalo</h2>
+    <label for="intervalo">Intervalo:</label><br>
+    <input type="number" id="intervalo" name="intervalo">
+    <button onclick="alterarIntervalo()">Alterar Intervalo</button>
+  </div>
+
+  <div id="datas">
+    <h2>Intervalo de Datas</h2>
+    <label for="data-inicio">Data Início:</label><br>
+    <input type="date" id="data-inicio" name="data-inicio">
+    <label for="data-fim">Data Fim:</label><br>
+    <input type="date" id="data-fim" name="data-fim">
+  </div>
+
+
+</body>
+</html>
+
+
